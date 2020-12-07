@@ -1,6 +1,6 @@
 # delay_problem
 discuss delay problem.
-  
+https://github.com/search/advanced
 讨论hal_delay函数问题
 hal_delay是单片机stm32初学者，应用很广泛的一个时间延时函数。hal_delay是如何延时的，它有什么特性，很少人研究。
 一般说来，中断函数必须遵循以下二点：在中断里面不能使用这类延时函数；中断函数要快进快出，所用的时间越短越好。但一些条件下，中断若要用延时到怎么办？如少量的延时。很多人就很顺手地把hal_delay用进去，就会造成程序运行问题。
